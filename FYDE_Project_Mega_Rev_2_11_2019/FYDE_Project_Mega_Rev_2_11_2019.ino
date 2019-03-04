@@ -51,7 +51,8 @@ char    pass[32]        = "bullybully";
 //char    ssid[32]        = "EE-IOT-Platform-02"; 
 //char    pass[32]        = "dUQQE?&W44x7";
 
-char    auth[256]  = "3249371193124d6ba26f0abe3f65ed2de";   // For FYDE projects only
+char    auth[256]  = "ae4b9ee531ed4118ab0cd94aced5885e";   // For FYDE projects only
+  // orginal code was 3249371193124d6ba26f0abe3f65ed2de
 
 
 // **********************************
