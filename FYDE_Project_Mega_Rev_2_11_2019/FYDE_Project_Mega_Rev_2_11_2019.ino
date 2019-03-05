@@ -45,14 +45,13 @@ int     Pin_Number  = 255;
 int     Pin_Integer = 0;
 float   Pin_Float   = 0.0;
 
-char    ssid[32]        = "iPhoneXR"; 
-char    pass[32]        = "bullybully";
+char    ssid[32]        = "DESKTOP-9DC3JAP 3428"; //iPhoneXR
+char    pass[32]        = "879Q98%w"; // bullybully d471e5773792
 
 //char    ssid[32]        = "EE-IOT-Platform-02"; 
 //char    pass[32]        = "dUQQE?&W44x7";
 
-char    auth[256]  = "ae4b9ee531ed4118ab0cd94aced5885e";   // For FYDE projects only
-  // orginal code was 3249371193124d6ba26f0abe3f65ed2de
+char    auth[256]  = "ae4b9ee531ed4118ab0cd94aced5885e";   // For FYDE projects only // orginal code was 3249371193124d6ba26f0abe3f65ed2de
 
 
 // **********************************
