@@ -62,6 +62,7 @@ void DebugPrint(void) {
   Serial.print(Pin_Integer);
   Serial.print(",");
   Serial.println(Pin_Float); 
+  
 }
 
 // =====================================================================
@@ -183,10 +184,12 @@ void ReadSensors(void) {
     Serial.print((sensorValueNew/1023)*5);
     Serial.print("\n");
     sensorValueOld = sensorValueNew;
+
+    Serial.println ((sensorValueNew/1023)*5);
   
-    //Serial.print("Analog pin value = ");
-    //Serial.print((sensorValueNew/1023)*5);
-    //Serial.print("V \n");
+    Serial.print("Analog pin value = ");
+    Serial.print((sensorValueNew/1023)*5);
+    Serial.print("V");
   }
 }
 
@@ -237,9 +240,12 @@ void setup() {
 // ----------------------------------------------------------------------------
 
 void loop() {
-  
+   digitalWrite(1,HIGH);
   ESP8266_to_Mega();
+  digitalWrite(1,LOW);
   delay(400);
+ 
   ReadSensors();
-  delay(300);  
+  delay(400);  
+  
 }
